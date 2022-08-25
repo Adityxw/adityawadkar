@@ -1,4 +1,6 @@
-import Head from 'next/head'
+Header({ title }) {
+  return <h1 className="title">{title}</h1>
+}
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
